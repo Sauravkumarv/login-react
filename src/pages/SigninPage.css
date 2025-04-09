@@ -1,0 +1,70 @@
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  text-align: center;
+}
+
+.signin-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.signin-description {
+  font-size: 1rem;
+  color: #555;
+  max-width: 80%;
+  margin-bottom: 1.5rem;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.signin-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.signin-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.signin-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .signin-title {
+    font-size: 1.75rem;
+  }
+  
+  .signin-description {
+    font-size: 0.9rem;
+    max-width: 90%;
+  }
+  
+  .signin-form {
+    width: 90%;
+  }
+}
